@@ -1,0 +1,14 @@
+/* Estilo para o cabeçalho */
+.header {
+    background-color: white;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    height: 30px;
+    width: auto;
+  }
+  
