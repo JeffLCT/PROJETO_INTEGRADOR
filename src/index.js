@@ -1,18 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import LoginPage from './componets/LoginPage/LoginPage';
-import Header from './componets/Header/Header';
+import AppRoutes from './routes';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <LoginPage />
-    <Header />
+    <AppRoutes />
 
-
-   
   </React.StrictMode>
 );
 

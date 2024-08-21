@@ -1,0 +1,87 @@
+/* Estilo atualizado para a página de login */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+  }
+  
+  .formContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azulclaro); 
+    padding: 70px;
+  }
+  
+  .loginForm {
+    background-color: var(--branco);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .loginForm h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .loginForm input, 
+  .loginForm .btnPrimary, 
+  .loginForm .btnSecondary {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+  }
+
+  .loginForm input {
+    box-sizing: border-box;
+  }
+  
+  .loginForm .btnPrimary {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--verdeclaro);
+    color: var(--preto);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+  }
+  
+  .loginForm .btnSecondary {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--branco);
+    color: var(--preto);
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    height: 100%;
+   /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+  }
+  

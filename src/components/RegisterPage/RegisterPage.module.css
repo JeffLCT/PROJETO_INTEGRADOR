@@ -1,0 +1,69 @@
+
+.registerContainer {
+
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid var(--preto);
+    border-radius: 8px;
+    background-color: var(--branco);
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--preto);
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--preto);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formGroup input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.logoUpload {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logoPlaceholder {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid var(--preto);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9e9;
+    color: #888;
+    font-size: 14px;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--verdeclaro);
+    color: var(--preto);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #e0dede;
+}

@@ -1,8 +1,16 @@
+:root {
+  --fonte: 'Inter', 'sans-serif';
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --azulclaro: #B8DCF5;
+  --verdeclaro: #89A9A8;
+  --cinzaescuro: #464646;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--fonte);
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
