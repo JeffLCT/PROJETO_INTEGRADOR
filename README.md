@@ -50,6 +50,8 @@ Perfil
 
 
 
+
+
 <h1>PREPARAÇÃO</h1>
 
 ## Para a realização deste projeto e desenvolvimento do MVP as seguintes tecnologias foram utilizadas:
